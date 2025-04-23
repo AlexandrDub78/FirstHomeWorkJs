@@ -20,10 +20,12 @@ for (let i = 0; i < 2; i++) {
 		console.log('done');
 		appData.expenses[a] = b;
 	} else {
-		continue;
+		console.log ("bad result");
+        i--;
 	}
 }
 
+// Используем цикл WHILE
 // let i = 0;
 // while ( i < 2) {
 // 	let a = prompt("Введите обязательную статью расходов в этом месяце", ''),
@@ -37,6 +39,8 @@ for (let i = 0; i < 2; i++) {
 // 	i++;
 // }
 
+// Используем цикл DO...WHILE
+// let i = 0;
 //  do {
 // 	let a = prompt("Введите обязательную статью расходов в этом месяце", ''),
 // 		b = prompt("Во сколько обойдется?", ''); 
